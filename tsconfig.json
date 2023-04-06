@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "sourceMap": true,
+    "target": "es2017"
+  },
+  "include": [
+    "./**/*.ts"
+  ]
+}

@@ -1,8 +1,8 @@
-import { TodoFunctionality } from "../baseClasses/TodoFunctionality.js";
+import {TodoFunctionality} from "./todo-functionality.js";
 
 export class Todo extends TodoFunctionality {
-    constructor(itemsContainer, addItemContainer, mainContainer, footer) {
-        super(itemsContainer, addItemContainer, mainContainer, footer)
+    constructor(itemsContainer, addItemContainer, footer) {
+        super(itemsContainer, addItemContainer, footer)
     }
 
     initApp() {
